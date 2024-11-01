@@ -1,0 +1,43 @@
+/* Estilos básicos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Estilo para os títulos */
+h1 {
+    color: #333;
+}
+
+/* Estilo para o formulário */
+form {
+    margin-bottom: 20px;
+}
+
+/* Estilo para os labels e inputs do formulário */
+label {
+    display: inline-block;
+    width: 50px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+/* Estilo para a tabela de usuários */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilo para o cabeçalho da tabela */
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilo para linhas alternadas da tabela */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
